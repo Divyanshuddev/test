@@ -17,7 +17,7 @@ import {
   ArrowRight
 } from 'lucide-react';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://test-2-s7zm.onrender.com';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
