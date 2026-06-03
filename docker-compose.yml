@@ -39,7 +39,7 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
       args:
-        - VITE_API_URL=http://localhost:8000
+        - VITE_API_URL=https://test-2-s7zm.onrender.com
     container_name: inventory_frontend
     restart: always
     ports:
