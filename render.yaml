@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: inventory-backend
+    env: docker
+    rootDir: backend
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: CORS_ORIGINS
+        value: https://test-yo97.vercel.app,http://localhost:5173,http://localhost:3000

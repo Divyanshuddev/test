@@ -29,7 +29,7 @@ services:
       - "8000:8000"
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@db:5432/inventory_db
-      - CORS_ORIGINS=https://test-yo97.vercel.app/
+      - CORS_ORIGINS=https://test-yo97.vercel.app,http://localhost:5173,http://localhost:3000
     depends_on:
       db:
         condition: service_healthy

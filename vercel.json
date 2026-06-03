@@ -1,4 +1,8 @@
 {
+  "framework": "vite",
+  "installCommand": "npm --prefix frontend ci",
+  "buildCommand": "npm --prefix frontend run build",
+  "outputDirectory": "frontend/dist",
   "env": {
     "VITE_API_URL": "https://test-2-s7zm.onrender.com"
   },
